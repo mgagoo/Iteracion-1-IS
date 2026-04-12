@@ -19,8 +19,8 @@ Descripción: Una vez realizada la compra, el usuario puede dejar una puntuació
 Nuevas clases de dominio implicadas:
 - Review (almacena la nota numérica, el texto, la fecha, quien lo compro y a quien se lo compro).
 
-CASO DE USO 3: Modo Invitado
-Clase de dominio pricipal: Guest
-Descripción: Un modo invitado para cuando no se registre o inicie sesion un usuario, entonces pueda acceder a las listas de los productos disponibles pero no tiene permisos para editar/crear y tampoco para comprar productos.
+CASO DE USO 3: Cesta de la compra
+Clase de dominio pricipal: Comprador
+Descripción: Una cesta de la compra implementada en las ofertas disponibles que se guardan segun el usuario quiera.
 Nuevas clases de dominio implicadas:
-- Guest ().
+- .
